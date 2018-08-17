@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/welcome"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Bist bereit für die Chemieprüfung?"
+            android:textSize="30sp"
+            android:textColor="#FF0000"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:fontFamily="sans-serif"
+            android:layout_height="wrap_content" />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="23sp"
+            android:textColor="#FF4DA6"
+            android:text="Start!"
+            android:onClick="btnStart_OnClick"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Hinweis:Das Quiz beinhaltet Fragen mit mehreren Antwortmöglichkeiten"
+            android:textSize="30sp"
+            android:textColor="#FF0000"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:fontFamily="sans-serif"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true" />
+
+    </RelativeLayout>
+
+</FrameLayout>
